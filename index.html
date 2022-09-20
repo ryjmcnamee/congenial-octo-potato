@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="english">
+    <head>
+        <title>Mini-project! Library of Congress API</title>
+        <meta charset="UTF-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    </head>
+<body>
+    <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-4">
+
+        <form>
+            Search for:
+            <input type="text" class="form-control my-1" id="query"></input>
+            Media type:
+            <select class="form-control my-1" id="format">
+                <option>All</option>
+                <option>Maps</option>
+                <option>Audio</option>
+                <option>Photos</option>
+                <option>Newspapers</option>
+                <option>Film-and-videos</option>
+                <option>Notated-music</option>
+                <option>Websites</option>
+            </select>
+            <button type="button" class="btn btn-primary my-2" id="search_btn">
+            Search!
+            </button> 
+        </form>
+    </main>
+
+  <script src="./assets/js/homepage.js"></script>
+</body>
+
+</html>
